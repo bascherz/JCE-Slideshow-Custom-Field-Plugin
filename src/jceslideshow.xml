@@ -56,6 +56,6 @@
 		</fields>
 	</config>
     <updateservers>
-        <server type="extension" name="JCE Slideshow Custom Field Plugin Update Site">https://https://raw.githubusercontent.com/bascherz/JCE-Slideshow-Custom-Field-Plugin/master/manifest.xml</server>
+        <server type="extension" name="JCE Slideshow Custom Field Plugin Update Site">https://raw.githubusercontent.com/bascherz/JCE-Slideshow-Custom-Field-Plugin/master/manifest.xml</server>
     </updateservers>
 </extension>

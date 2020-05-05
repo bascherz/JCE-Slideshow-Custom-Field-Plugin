@@ -50,10 +50,25 @@ if ($desc) {
     $desc = htmlentities($desc, ENT_COMPAT, 'UTF-8', true);
 }
 
-$element = '<a class="jcepopup" title="%s" href="%s" data-mediabox="1" data-mediabox-group="%s" data-mediabox-title="%s"><img style="margin: 10px; float: right;" src="%s" alt="Photo" width="275" /></a>';
+$width = (string) $fieldParams->get('media_width', '');
+if ($width) {
+    $width = 'width="'.htmlentities($width, ENT_COMPAT, 'UTF-8', true).'px"';
+}
+
+$height = (string) $fieldParams->get('media_height', '');
+if ($height) {
+    $height = 'height="'.htmlentities($height, ENT_COMPAT, 'UTF-8', true).'px"';
+}
+
+$style = (string) $fieldParams->get('media_style', '');
+if ($style) {
+    $style = 'style="'.htmlentities($style, ENT_COMPAT, 'UTF-8', true).'"';
+}
+
+$element = '<a class="jcepopup" title="%s" href="%s" data-mediabox="1" data-mediabox-group="%s" data-mediabox-title="%s"><img %s src="%s" alt="Photo" %s %s /></a>';
 
 // Construct main image and pop-up link.
-$buffer = sprintf($element,$group_title,$primaryImage,$group,$desc,$primaryImage);
+$buffer = sprintf($element,$group_title,$primaryImage,$group,$desc,$style,$primaryImage,$width,$height);
 
 foreach ($images as $image) {
     $path_parts = pathinfo($image);

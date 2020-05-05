@@ -34,6 +34,24 @@
 				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_TYPES_DESC"
 				default=".jpg,.jpeg,.png,.gif"
 			/>
+			<field
+				name="media_style"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_STYLE_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_STYLE_DESC"
+			/>
+			<field
+				name="media_width"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_WIDTH_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_WIDTH_DESC"
+			/>
+			<field
+				name="media_height"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_HEIGHT_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_HEIGHT_DESC"
+			/>
 		</fieldset>
 	</fields>
 </form>
