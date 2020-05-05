@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.8" group="fields" method="upgrade">
+	<name>plg_fields_jceslideshow</name>
+	<version>1.0</version>
+  	<creationDate>04-03-2020</creationDate>
+  	<author>Bruce Scherzinger</author>
+  	<authorEmail>joomlander@scherzinger.org</authorEmail>
+  	<authorUrl>https://github.com/bascherz</authorUrl>
+  	<copyright>Copyright (C) 2020 Bruce Scherzinger. All rights reserved</copyright>
+  	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>JCE Slideshow Custom Field Plugin</description>
+	<files folder="plugins/fields/jceslideshow">
+		<filename plugin="jceslideshow">jceslideshow.php</filename>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+		<folder>fields</folder>
+	</files>
+	<languages folder="administrator/language/en-GB">
+		<language tag="en-GB">en-GB.plg_fields_jceslideshow.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_jceslideshow.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="moreinfo"
+					type="note"
+					class="alert alert-info"
+					description="PLG_FIELDS_JCESLIDESHOW_XML_DESCRIPTION"
+				/>
+				<field
+					name="media_group"
+					type="text"
+					label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_LABEL"
+					description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_DESC"
+				/>
+				<field
+					name="media_group_title"
+					type="text"
+					label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_TITLE_LABEL"
+					description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_TITLE_DESC"
+				/>
+				<field
+					name="media_description"
+					type="text"
+					label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_DESCRIPTION_LABEL"
+					description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_DESCRIPTION_DESC"
+				/>
+				<field
+					name="media_types"
+					type="text"
+					label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_TYPES_LABEL"
+					description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_TYPES_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

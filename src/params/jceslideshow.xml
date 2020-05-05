@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+            <field
+                name="moreinfo"
+                type="note"
+                class="alert alert-info"
+                description="PLG_FIELDS_JCESLIDESHOW_XML_DESCRIPTION"
+            />
+			<field
+				name="media_group"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_DESC"
+			/>
+			<field
+				name="media_group_title"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_TITLE_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_GROUP_TITLE_DESC"
+				default="Click here to see all photos"
+			/>
+			<field
+				name="media_description"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_DESCRIPTION_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_DESCRIPTION_DESC"
+			/>
+			<field
+				name="media_types"
+				type="text"
+				label="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_TYPES_LABEL"
+				description="PLG_FIELDS_JCESLIDESHOW_PARAMS_MEDIA_TYPES_DESC"
+				default=".jpg,.jpeg,.png,.gif"
+			/>
+		</fieldset>
+	</fields>
+</form>
