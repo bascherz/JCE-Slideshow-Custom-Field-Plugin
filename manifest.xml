@@ -4,7 +4,7 @@
 		<name>JCE Slideshow Custom Field Plugin</name>
 		<description>JCE Slideshow Custom Field Plugin</description>
 		<element>jceslideshow</element>
-		<folder>plugins/fields</folder>
+		<folder>plugins</folder>
 		<type>plugin</type>
 		<version>1.1</version>
 		<client>site</client>
