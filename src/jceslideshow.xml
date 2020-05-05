@@ -55,4 +55,7 @@
 			</fieldset>
 		</fields>
 	</config>
+    <updateservers>
+        <server type="extension" name="JCE Slideshow Custom Field Plugin Update Site">https://github.com/bascherz/JCE-Slideshow-Custom-Field-Plugin/master/manifest.xml</server>
+    </updateservers>
 </extension>
